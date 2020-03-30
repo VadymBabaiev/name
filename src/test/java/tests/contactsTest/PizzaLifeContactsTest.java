@@ -28,7 +28,7 @@ public class PizzaLifeContactsTest {
     public void checkFunctionalityOfPhonesDropdownButton() {
 
         Assertions.assertThat(homePage.extractPhoneNumbers().isDisplayed())
-                .isFalse();
+                .isTrue();
     }
 
 
